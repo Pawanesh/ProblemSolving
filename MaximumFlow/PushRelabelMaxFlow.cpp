@@ -133,6 +133,6 @@ int main() {
     g.addEdge(4,3,7);
     g.addEdge(4,5,4);
 
-    std::cout << "Max flow: " << g.getMaxFlow() << std::endl;
+    std::cout << "Push Relable Max flow: " << g.getMaxFlow() << std::endl;
     return 0;
 }

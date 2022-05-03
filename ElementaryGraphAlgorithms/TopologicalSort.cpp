@@ -44,7 +44,6 @@ struct DFS {
                 startTime[u] = time;
                 for (auto &v: graph.edges(u)) {
                     if (color[v] == COLOR::WHITE) {
-                        color[v] = COLOR::GRAY;
                         tree[v] = u;
                         stack.push(v);
                     }
